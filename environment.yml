@@ -1,0 +1,6 @@
+name: rdkit_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - rdkit=2025.09
