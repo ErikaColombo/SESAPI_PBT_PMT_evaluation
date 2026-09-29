@@ -6,9 +6,23 @@ The SESAPI is tool designed to assess the PBT (Persistent, Bioaccumulative, and 
 You can download all the files [here](https://escher-2.marionegri.it/d/c88ead047b9546688ecc/).
 
 ### Requirement
-R and RStudio
-anaconda 
 
+The application requires **R**, **RStudio**, and **miniconda** for Python.
+You can download R and RStudio following the instructions provided here: [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://posit.co/downloads)
+You can download Miniconda following the instructions here: [anaconda](https://www.anaconda.com/docs/getting-started/miniconda/install/windows-gui-install) 
+
+A pre-configured Conda environment is provided in the repository as **environment.yml**. This file contains the Python dependencies required by the application.
+
+Open the Anaconda Prompt and create the environment by copying this command:
+
+```bash
+> conda env create -f environment.yml
+```
+In this way, an environment named *rdkit_env* is created and will be used in the SESAPI application.
+
+## Open SESAPI
+
+After download all requirements, you can open with RStudio the 
 
 ## Userguide
 The interface is divided into two tabs: PMT/PBT Analysis and Structural Analysis.
