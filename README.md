@@ -21,7 +21,7 @@ Miniconda can be downloaded from the following page:
 
 A pre-configured Conda environment is provided in the repository as **`environment.yml`**. This file contains the Python dependencies required by the application.
 
-Open the **Anaconda Prompt** and create the environment by running:
+Open the **Anaconda Prompt**, go to a folder that contain the `environment.yml` file, and create the environment by running:
 
 ```bash
 conda env create -f environment.yml
