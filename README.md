@@ -1,28 +1,42 @@
 # SESAPI_PBT_PMT_evaluation
 
-The SESAPI is tool designed to assess the PBT (Persistent, Bioaccumulative, and Toxic) and PMT (Persistent, Mobile, and Toxic) properties of substances using structural alerts and degradation pathways.
+SESAPI is a tool designed to assess the PBT (Persistent, Bioaccumulative, and Toxic) and PMT (Persistent, Mobile, and Toxic) properties of substances using structural alerts and degradation pathways.
 
-## Requirement and how to use it
-You can download all the files [here](https://escher-2.marionegri.it/d/c88ead047b9546688ecc/).
+## Requirements and How to Use
 
-### Requirement
+You can download all the required files [here](https://escher-2.marionegri.it/d/c88ead047b9546688ecc/).
 
-The application requires **R**, **RStudio**, and **miniconda** for Python.
-You can download R and RStudio following the instructions provided here: [R](https://cran.r-project.org/bin/windows/base/) and [RStudio](https://posit.co/downloads)
-You can download Miniconda following the instructions here: [anaconda](https://www.anaconda.com/docs/getting-started/miniconda/install/windows-gui-install) 
+### Requirements
 
-A pre-configured Conda environment is provided in the repository as **environment.yml**. This file contains the Python dependencies required by the application.
+The application requires **R**, **RStudio**, and **Miniconda** for Python.
 
-Open the Anaconda Prompt and create the environment by copying this command:
+You can download R and RStudio using the links below:
+
+- [R](https://cran.r-project.org/bin/windows/base/)
+- [RStudio](https://posit.co/downloads/)
+
+Miniconda can be downloaded from the following page:
+
+- [Miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install/windows-gui-install)
+
+A pre-configured Conda environment is provided in the repository as **`environment.yml`**. This file contains the Python dependencies required by the application.
+
+Open the **Anaconda Prompt** and create the environment by running:
 
 ```bash
-> conda env create -f environment.yml
+conda env create -f environment.yml
 ```
-In this way, an environment named *rdkit_env* is created and will be used in the SESAPI application.
+This will create a Conda environment named *rdkit_env*, which is used by the SESAPI application.
 
 ## Open SESAPI
 
-After download all requirements, you can open with RStudio the 
+Once all the requirements have been installed, open the SesapiAPP.R file using RStudio and click the *"Run App"* button.
+
+<p align="center">
+  <img src="IMG/Rstudio.png">
+</p>
+
+The SESAPI graphical user interface (GUI) will then open.
 
 ## Userguide
 The interface is divided into two tabs: PMT/PBT Analysis and Structural Analysis.
