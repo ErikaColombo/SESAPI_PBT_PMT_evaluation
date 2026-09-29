@@ -74,3 +74,8 @@ Once analyzed, the interface will display two main sections:
 <p align="center">
   <img src="IMG/Sesapi2.png">
 </p>
+
+## Contacts
+
+Erika Colombo - Laboratory of Environmental Chemistry and Toxicology - Department of Environmental Health Sciences - Istituto di Ricerche Farmacologiche Mario Negri IRCCS - Via Mario Negri 2, 20156 Milano, Italy - e-mail: erika.colombo@marionegri.it
+
