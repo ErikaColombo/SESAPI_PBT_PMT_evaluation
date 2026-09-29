@@ -3,7 +3,7 @@
 The SESAPI is tool designed to assess the PBT (Persistent, Bioaccumulative, and Toxic) and PMT (Persistent, Mobile, and Toxic) properties of substances using structural alerts and degradation pathways.
 
 ## Requirement and how to use it
-You can download all the files [here]().
+You can download all the files [here](https://escher-2.marionegri.it/d/c88ead047b9546688ecc/).
 
 ### Requirement
 R and RStudio
