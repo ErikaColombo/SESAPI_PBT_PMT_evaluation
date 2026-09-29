@@ -33,7 +33,7 @@ This will create a Conda environment named *rdkit_env*, which is used by the SES
 Once all the requirements have been installed, open the SesapiAPP.R file using RStudio and click the *"Run App"* button.
 
 <p align="center">
-  <img src="IMG/Rstudio.png">
+  <img src="IMG/RStudio.png">
 </p>
 
 The SESAPI graphical user interface (GUI) will then open.
